@@ -127,7 +127,7 @@ function spawnEnemy() {
     width: 50,
     height: 50,
     speed: 2,
-    faceImage: enemyImages.deo,
+    faceImage: enemyImages.s,
   });
 }
 
