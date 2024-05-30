@@ -26,7 +26,7 @@ const enemyImages = {
   deo: new Image(),
 };
 
-enemyImages.deo.src = "s.jpeg";
+enemyImages.deo.src = "s.jpeg"; // Changed the enemy image source to "s.jpeg"
 
 let gameOver = false;
 
@@ -127,7 +127,7 @@ function spawnEnemy() {
     width: 50,
     height: 50,
     speed: 2,
-    faceImage: enemyImages.s,
+    faceImage: enemyImages.deo,
   });
 }
 
@@ -210,3 +210,4 @@ document.addEventListener("keydown", (e) => {
     credits.style.display = "none";
   }
 });
+
