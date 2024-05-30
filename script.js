@@ -26,7 +26,7 @@ const enemyImages = {
   deo: new Image(),
 };
 
-enemyImages.deo.src = "deo.jpg";
+enemyImages.deo.src = "s.jpeg";
 
 let gameOver = false;
 
